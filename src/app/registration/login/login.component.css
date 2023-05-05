@@ -72,8 +72,15 @@ button{
 }
 .sign_logo{
     height: 30px;
+    cursor: pointer;
 }
+
 .logo_title{
     font-family: 'Arimo', sans-serif;
  font-size: 10px;
+}
+
+img{
+    height: 15px;
+    width: 15px;
 }

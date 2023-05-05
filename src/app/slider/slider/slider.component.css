@@ -1,0 +1,97 @@
+.product{
+    padding: 20px 0px;
+
+}
+.slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 480px;
+}
+
+.slider-main{
+    position: absolute;
+    width:5080px;
+}
+.item{
+    display: inline-block;
+    width: 252px;
+    height: 460px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    max-width: 250px;
+    height:435px;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 10px;
+}
+.box:hover{
+    border: 1px solid black ;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rosybrown;
+}
+.product_img{
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    height: 200px;
+}
+.product_img img{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.product_name{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #212121;
+    padding-left: 20px;
+}
+.product_quantity{
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    color: #757575;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 40px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    padding-left: 20px;
+
+}
+.product_offer{
+    height: 40px;
+}
+.product_price{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #757575;
+}
+.product_delivery{
+    height: 40px;
+}
+.old_price span{
+    color: #1aab2a;
+}
+
+.prev{
+   position: relative;
+   left: 0%;
+   top: -50%;
+   transform: translate(-50%,-50%);
+}
